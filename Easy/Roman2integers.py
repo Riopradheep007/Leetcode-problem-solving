@@ -1,6 +1,6 @@
 '''
 Converting the roman numerals to numbers
-
+Eg: XII ----->12
 '''
 
 
