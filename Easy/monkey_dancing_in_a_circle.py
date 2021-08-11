@@ -1,10 +1,4 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Fri May 14 18:14:13 2021
 
-@author: kpr
-"""
 
 
 def Monkey_dance(ls,target,count=1):
