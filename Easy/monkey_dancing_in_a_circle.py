@@ -1,5 +1,6 @@
-
-
+"""
+Remove the last value from the list add to the front countinue the cycle again and again.
+"""
 
 def Monkey_dance(ls,target,count=1):
 
