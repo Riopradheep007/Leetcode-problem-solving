@@ -1,3 +1,4 @@
+"""
    You are given an array prices where prices[i] is the price of a given stock on the ith day.
 
 Find the maximum profit you can achieve. You may complete as many transactions as you like (i.e., buy one and sell one share of the stock multiple times).
@@ -25,7 +26,7 @@ Output: 0
 Explanation: In this case, no transaction is done, i.e., max profit = 0.
 
 
-
+"""
 
 def maxProfit(prices):
     minPrice = prices[0]
