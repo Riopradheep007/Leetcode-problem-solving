@@ -1,4 +1,4 @@
-
+"""
 1.Given a binary array nums, return the maximum number of consecutive 1's in the array.
 
  
@@ -13,7 +13,7 @@ Example 2:
 Input: nums = [1,0,1,1,0,1]
 Output: 2
 
-
+"""
 
 class Solution(object):
     def findMaxConsecutiveOnes(self, nums):
