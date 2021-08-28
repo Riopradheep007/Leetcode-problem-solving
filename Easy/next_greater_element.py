@@ -32,22 +32,26 @@ Explanation: The next greater element for each value of nums1 is as follows:
 
 
 
-
+ ## I solved this problem using stack data structure
 class Solution:
     def nextGreaterElement(self, nums1: List[int], nums2: List[int]) -> List[int]:
+      
         stack = []
         dic = {}
         result = []
+        
         for element in nums2:
             while stack and stack[-1] < element:
                 key = stack.pop()
                 dic[key] = element
             stack.append(element)
+            
         for element in nums1:
             if element in dic:
                 result.append(dic[element])
             else:
                 result.append(-1)
+                
         return result
         
         
