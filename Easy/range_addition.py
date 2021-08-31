@@ -25,6 +25,13 @@ Output: 9
 
 """
 
+
+'''
+  First i wrote this code straight forward appeoah but some of the test case not passed 
+  
+  Memory limit ezceed
+'''
+
 class Solution:
     def maxCount(self, m: int, n: int, ops: List[List[int]]) -> int:
         
@@ -48,7 +55,9 @@ class Solution:
         return count
 
 
-
+"""
+ The be;;pw code works fine
+"""
 class Solution:
     def maxCount(self, m: int, n: int, ops: List[List[int]]) -> int:
         if not ops:
