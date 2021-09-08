@@ -1,4 +1,5 @@
-    Given an array nums of n integers where nums[i] is in the range [1, n], return an array of all the integers in the range [1, n] that do not appear in nums.
+"""
+  Given an array nums of n integers where nums[i] is in the range [1, n], return an array of all the integers in the range [1, n] that do not appear in nums.
 
  
 
@@ -10,7 +11,7 @@ Example 2:
 
 Input: nums = [1,1]
 Output: [2]
-
+"""
 
 def findDisappearedNumbers( nums):
     result = [* range(0, len(nums)+1)] 
