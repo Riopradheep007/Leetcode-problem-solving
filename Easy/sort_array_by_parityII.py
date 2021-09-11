@@ -40,6 +40,10 @@ class Solution:
         return result
 
 
+  
+"""
+   This code occupy less space than the previous code
+"""
 class Solution:
     def sortArrayByParityII(self, nums: List[int]) -> List[int]:
         
