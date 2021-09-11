@@ -1,5 +1,5 @@
 
-
+"""
 
     Given an array of integers nums, half of the integers in nums are odd, and the other half are even.
 
@@ -19,6 +19,7 @@ Example 2:
 Input: nums = [2,3]
 Output: [2,3]
 
+"""
 
 class Solution:
     def sortArrayByParityII(self, nums: List[int]) -> List[int]:
