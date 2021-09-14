@@ -1,4 +1,5 @@
-Given an array target and an integer n. In each iteration, you will read a number from  list = {1,2,3..., n}.
+    
+    Given an array target and an integer n. In each iteration, you will read a number from  list = {1,2,3..., n}.
 
 Build the target array using the following operations:
 
