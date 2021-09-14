@@ -1,4 +1,4 @@
-    
+"""    
     Given an array target and an integer n. In each iteration, you will read a number from  list = {1,2,3..., n}.
 
 Build the target array using the following operations:
@@ -31,7 +31,7 @@ Example 4:
 
 Input: target = [2,3,4], n = 4
 Output: ["Push","Pop","Push","Push","Push"]
-
+"""
 
 
 class Solution:
