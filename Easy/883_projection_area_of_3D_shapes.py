@@ -1,4 +1,4 @@
-You are given an n x n grid where we place some 1 x 1 x 1 cubes that are axis-aligned with the x, y, and z axes.
+    You are given an n x n grid where we place some 1 x 1 x 1 cubes that are axis-aligned with the x, y, and z axes.
 
 Each value v = grid[i][j] represents a tower of v cubes placed on top of the cell (i, j).
 
