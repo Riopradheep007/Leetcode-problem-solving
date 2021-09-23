@@ -1,4 +1,4 @@
-     
+"""     
  A sequence of numbers is called an arithmetic progression if the difference between any two consecutive elements is the same.
 Given an array of numbers arr, return true if the array can be rearranged to form an arithmetic progression. Otherwise, return false.
 
@@ -14,7 +14,7 @@ Example 2:
 Input: arr = [1,2,4]
 Output: false
 Explanation: There is no way to reorder the elements to obtain an arithmetic progression.
-
+"""
 
 class Solution:
     def canMakeArithmeticProgression(self, arr: List[int]) -> bool:
@@ -24,4 +24,4 @@ class Solution:
             if arr[i+1] - arr[i] != k:
                 return False
         return True
-        
+
