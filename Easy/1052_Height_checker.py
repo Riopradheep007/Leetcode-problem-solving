@@ -21,7 +21,7 @@ Indices 2, 4, and 5 do not match.
 
 """
 
-Time complixity is O(n logn)
+#Time complixity is O(n logn)
 class Solution:
     def heightChecker(self, heights: List[int]) -> int:
         count = 0
@@ -32,8 +32,7 @@ class Solution:
                 count += 1
         return count
 
-time complixity is O(n)
-
+#time complixity is O(n)
 import collections
 class Solution:
     def heightChecker(self, heights: List[int]) -> int:
