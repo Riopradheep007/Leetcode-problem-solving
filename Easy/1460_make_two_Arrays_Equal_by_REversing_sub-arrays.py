@@ -48,7 +48,7 @@ target.length == arr.length
 1 <= arr[i] <= 1000
 """
 
-Time Complixity is O(n)
+#Time Complixity is O(n)
 class Solution:
     def canBeEqual(self, target: List[int], arr: List[int]) -> bool:
         targetCounter = {}
