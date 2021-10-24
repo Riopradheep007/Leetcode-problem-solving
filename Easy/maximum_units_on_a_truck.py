@@ -30,7 +30,7 @@ Constraints:
 1 <= truckSize <= 106
 """
 
-Time complixity => O(n)
+# Time complixity => O(n)
 class Solution:
     def maximumUnits(self, boxTypes: List[List[int]], truckSize: int) -> int:
         boxTypes.sort(key=lambda x: -x[1])
